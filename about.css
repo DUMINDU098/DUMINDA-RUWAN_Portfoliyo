@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/* --------  body ------------------------------------------------------------------------------------------------------------ */
+
+body
+{
+  color: #ededed;  
+  background: #000000;
+}
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:#110f0f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.profile{
+    margin-top: 40px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background: url(image/3.png) no-repeat;
+    background-color: rgb(9, 7, 1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.profile1 h1{
+   
+    font-size: 60px;
+    font-weight: 600;
+    
+
+}
+
+.education1{
+    margin: 20px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    align-items: center;
+
+}
+.education h2{
+    font-size: 40px;
+    margin:10px 40px;
+    color: darkorange;
+    text-align: center;
+}
+.campus{
+    margin: 20px;
+}
+.campus h3{
+    padding-bottom: 10px;
+}
+.campus h4{
+    padding-bottom: 5px;
+}
+
+.al{
+    margin: 20px;
+}
+.al h3{
+    padding-bottom: 10px;
+}
+.al h4{
+    padding-bottom: 5px;
+}
+
+.ol{
+    margin: 20px;
+}
+.ol h3{
+    padding-bottom: 10px;
+}
+.ol h4{
+    padding-bottom: 5px;
+}
+
+.work1 h2{
+    font-size: 40px;
+    margin:10px 20px;
+    color: darkorange;
+    
+}
+.work1{
+    margin:20px 20px;
+}
+.work1 h3{
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.work h4{
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.achiev1 h2{
+    font-size: 40px;
+    margin:10px 20px;
+    color: darkorange;
+    
+}
+.achiev1{
+    margin:20px 20px;
+}
+.achiev1 p{
+    padding-top: 20px;
+    padding-left: 20px;
+}
